@@ -1,0 +1,5 @@
+print("Studio del rettangolo")
+base = input("Inserire la base: ")
+altezza = input("Inserire l'altezza: ")
+print(f"Perimetro: {(int(base) + int(altezza)) * 2}")
+print(f"Area: {int(base) * int(altezza)}")
